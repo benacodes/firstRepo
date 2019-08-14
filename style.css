@@ -1,0 +1,39 @@
+body{
+	background-color: silver;
+	margin: 5px;
+}
+
+#elect{
+	display: flex;
+	justify-content: center;
+	background-color: #47605d;
+	
+}	
+
+#elect p{
+	font-size: 35px;
+	font-style: italic;
+	color: white;
+
+}
+
+#container{
+	background-color: #47605d;
+	width:60%;
+	height:500px;
+	border-radius:12px;
+}
+
+input{
+	width:40%;
+	padding:20px;
+	border-radius: 12px;
+
+}
+
+button{
+	width:15%;
+	padding:20px;
+	border-radius: 12px;
+
+}
