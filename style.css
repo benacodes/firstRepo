@@ -92,15 +92,15 @@ ul li{
 }
 
 ul li:nth-child(odd){
-	background-color: red;
+	background-color: #e8101045;
 }
 
 ul li:nth-child(even){
-	background-color: red;
+	background-color: #e8101045;
 }
 
 ul li.checked {
-  background-color: green;
+  background-color: #6aa46adb;
   
 }
 #box{
