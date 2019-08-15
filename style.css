@@ -3,12 +3,17 @@ body{
 	margin: 5px;
 }
 
+
 #elect{
 	display: flex;
 	justify-content: center;
 	background-color: #47605d;
+	border-radius: 3px;
+	height:100px;
+	align-items: center;
 	
 }	
+
 
 #elect p{
 	font-size: 35px;
@@ -17,23 +22,95 @@ body{
 
 }
 
-#container{
-	background-color: #47605d;
-	width:60%;
-	height:500px;
-	border-radius:12px;
-}
 
 input{
+	margin-left: 350px;
 	width:40%;
-	padding:20px;
+	font-size: 13px;
+	padding:15px;
 	border-radius: 12px;
 
 }
 
-button{
-	width:15%;
-	padding:20px;
+.addbutton{
+	width:30%;
+	font-size: 14px;
+	padding:15px;
 	border-radius: 12px;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	background-color: #47605d;
+
+
+
+	-webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+
+.addbutton:hover{
+	background-color: black;
+}
+
+
+ul{
+	margin:3px;
+	padding:4px;
+	padding-bottom: 4px;
+}
+
+ul li{
+	position: relative;
+	cursor: default;
+	padding:12px 8px 12px 40px;
+	background: #eee;
+	list-style-type: none;
+	border-style: solid;
+	border-color: #47605d;
+
+	-webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+
+.cancel{
+	position: absolute;
+	right:0;
+	top:0;
+	padding: 10px 15px 15px 15px;
+}
+
+.cancel:hover{
+	background-color: #000;
+	color:white;
+}
+
+ul li:nth-child(odd){
+	background-color: red;
+}
+
+ul li:nth-child(even){
+	background-color: red;
+}
+
+ul li.checked {
+  background-color: green;
+  
+}
+#box{
+	margin-left: 310px;
+	margin-right: 310px;
+	background-color: #47605d;
+	padding:350px;
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+	border-radius: 5px;
 
 }
