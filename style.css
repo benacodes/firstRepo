@@ -87,8 +87,8 @@ ul li{
 }
 
 .cancel:hover{
-	background-color: #000;
-	color:white;
+	background-color: red;
+	
 }
 
 ul li:nth-child(odd){
